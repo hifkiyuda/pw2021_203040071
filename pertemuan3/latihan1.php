@@ -45,7 +45,7 @@ $i++;
     <title>Document</title>
     <style>
         .warna-baris  {
-            background-color:blue;
+            background-color:silver;
         }   
     </style>
 </head>
