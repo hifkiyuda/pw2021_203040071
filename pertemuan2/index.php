@@ -19,10 +19,10 @@ echo true;
 print "Belajar sintaks dasar PHP";
 
 // print_r
-print_r ("Teknik Informatika Unpas")
+print_r ("Teknik Informatika Unpas");
 
 // var_dump
-var_dump("Universitas Pasundan")
+var_dump("Universitas Pasundan");
 
 
 // Penulisan sintaks PHP
@@ -34,7 +34,7 @@ var_dump("Universitas Pasundan")
 // Variabel -> cukup diawali tanda $
 // Tidak boleh diawali dengan angka, tapi boleh mengandung angka
 $nama1 = "Hifki Yuda Pratama";
-echo "Hallo, nama saya $nama1"
+echo "Hallo, nama saya $nama1";
 
 // Interpolasi
 // hasilnya : Hallo, nama saya Hifki Yuda Pratama
