@@ -36,6 +36,6 @@ function gantiStyle($tulisan, $style1, $style2) {
     </style>
 </head>
 <body>
-    <p><?= gantiStyle("Selamat datang di praktikum PW", "gaya1", "gaya2"); ?></p>
+    <p><?php echo gantiStyle("Selamat datang di praktikum PW", "gaya1", "gaya2"); ?></p>
 </body>
 </html>
