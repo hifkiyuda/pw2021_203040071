@@ -3,7 +3,7 @@
 Hifki Yuda Pratama
 203040071
 https://github.com/hifkiyuda/pw2021_203040071
-Pertemuan 6 - 9 Maret 2021
+Pertemuan 6 - 11 Maret 2021
 Mempelajari mengenai array associative pada PHP
 */
 ?>

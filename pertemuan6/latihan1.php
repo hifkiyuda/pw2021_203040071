@@ -3,7 +3,7 @@
 Hifki Yuda Pratama
 203040071
 https://github.com/hifkiyuda/pw2021_203040071
-Pertemuan 6 - 9 Maret 2021
+Pertemuan 6 - 11 Maret 2021
 Mempelajari mengenai array associative pada PHP
 */
 ?>
@@ -25,7 +25,7 @@ echo "<br>";
 echo $arr[0];
 echo "<br>";
 
-// Menampilkan array bisa menggunakan pengulangan (for / foreach}
+// Menampilkan array bisa menggunakan pengulangan (for / foreach)
 foreach ($hari as $h){
     echo "$h <br>";
 }
