@@ -13,70 +13,70 @@ $mobil = [
         "nama" => "Toyota Kijang Innova",
         "harga" => "Rp 337,6 juta",
         "transmisi" => "manual",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "innova.jpeg",
     ],
     [
         "nama" => "Honda Brio",
         "harga" => "Rp 149 juta",
         "transmisi" => "manual",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "brio.jpeg"
     ],
     [
         "nama" => "Honda CR-V",
         "harga" => "Rp 489 juta",
         "transmisi" => "otomatis",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "cr-v.jpeg"
     ],
     [
         "nama" => "Mitsubishi Pajero Sport",
         "harga" => "Rp 733,7 juta",
         "transmisi" => "otomatis",
-        "bahan bakar" => "solar",
+        "bahanbakar" => "solar",
         "gambar" => "pajero.jpeg"
     ],
     [
         "nama" => "Jeep Wrangler",
         "harga" => "Rp 1,78 milyar",
         "transmisi" => "manual",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "wrangler.jpeg"
     ],
     [
         "nama" => "Toyota Hilux",
         "harga" => "Rp 497,65 juta",
         "transmisi" => "otomatis",
-        "bahan bakar" => "solar",
+        "bahanbakar" => "solar",
         "gambar" => "hilux.jpeg"
     ],
     [
         "nama" => "Toyota Yaris",
         "harga" => "Rp 266,25 juta",
         "transmisi" => "manual",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "yaris.jpeg"
     ],
     [
         "nama" => "Suzuki Jimny",
         "harga" => "Rp 382,5 juta",
         "transmisi" => "manual",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "jimny.jpeg"
     ],
     [
         "nama" => "BMW 6 Series",
         "harga" => "Rp 1,81 milyar",
         "transmisi" => "otomatis",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "bmw6.jpeg"
     ],
     [
         "nama" => "Toyota Vellfire",
         "harga" => "Rp 1,19 milyar",
         "transmisi" => "otomatis",
-        "bahan bakar" => "bensin",
+        "bahanbakar" => "bensin",
         "gambar" => "vellfire.jpeg"
     ],
 ];
@@ -96,10 +96,10 @@ $mobil = [
             <li>
                 <img src="img/<?= $mb["gambar"]; ?>">
             </li>
-            <li>Nama        : <?= $mb["nama"]; ?></li>
-            <li>Harga       : <?= $mb["harga"]; ?></li>
-            <li>Transmisi   : <?= $mb["transmisi"]; ?></li>
-            <li>Bahan Bakar : <?= $mb["bahan bakar"]; ?></li>
+            <li>Nama : <?= $mb["nama"]; ?></li>
+            <li>Harga : <?= $mb["harga"]; ?></li>
+            <li>Transmisi : <?= $mb["transmisi"]; ?></li>
+            <li>Bahan Bakar : <?= $mb["bahanbakar"]; ?></li>
         </ul>
     <?php endforeach; ?>
 </body>

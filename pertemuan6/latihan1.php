@@ -25,7 +25,7 @@ echo "<br>";
 echo $arr[0];
 echo "<br>";
 
-// Menampilkan array bisa menggunakan pengulangan (for / foreach)
+// Menampilkan array menggunakan pengulangan (for / foreach)
 foreach ($hari as $h){
     echo "$h <br>";
 }

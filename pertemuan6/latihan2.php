@@ -16,8 +16,7 @@ $mahasiswa = [
         "nama" => "Hifki Yuda Pratama",
         "nrp" => "203040071",
         "email" => "203040071@mail.unpas.ac.id",
-        "jurusan" => "Teknik Informatika",
-        "tugas" => [80,90,85]
+        "jurusan" => "Teknik Informatika"
     ],
     [
         "nama" => "Drink Water",
