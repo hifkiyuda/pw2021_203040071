@@ -123,7 +123,7 @@ $movie = [
             <tr>
                 <th>No</th>
                 <th>Poster</th>
-                <th>judul</th>
+                <th>Judul</th>
                 <th>Cast</th>
                 <th>Rating</th>
                 <th>Genre</th>
