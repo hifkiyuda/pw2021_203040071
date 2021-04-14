@@ -59,7 +59,7 @@ $movies = query("SELECT * FROM movies");
         </tbody>
     </table>
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
 </body>
 </html>
 </html>
