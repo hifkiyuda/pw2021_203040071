@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 100px !important;
+    background-color: rgba(23, 32, 42, 0.9)!important;
+}
+
+
+/* index & admin */
+.header {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+/* tombol */
+.submit {
+    margin-top: 20px !important;
+    background-color: #50C878 !important;
+    color: white !important;
+}
+
+
+/* login & registrasi */
+.log-reg {
+    margin-top: 100px !important;
+}
+.logreg-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+.logout {
+    margin-top: 10px;
+}
+
+
+/* tambah & ubah */
+.tambah-ubah {
+    margin-top: 10px !important;
+}
+.tambahubah-form {
+    background-color: white !important;
+    padding: 20px;
+    border-radius: 4px;
+}
+.tambahubah-btn {
+    display: flex;
+    justify-content: space-around;
+}
+.tambah-ubah button a {
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+
+
+/* detail.php */
+.detail {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    margin-top: 25px;
+    padding: 40px;
+}
+.gambar img {
+    border: 3px solid grey;
+}
+.keterangan {
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+}
+.keterangan :nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
+}
+.detail-btn a {
+    color: white;
+}
+.detail-btn a:hover {
+    color: white;
+}
