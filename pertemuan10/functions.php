@@ -3,8 +3,8 @@
 Hifki Yuda Pratama
 203040071
 https://github.com/hifkiyuda/pw2021_203040071
-Pertemuan 10 - 23 Maret 2021
-Mempelajari mengenai Koneksi DB
+Pertemuan 10 - 27 April 2021
+Mempelajari mengenai Koneksi DB dan Insert Data
 */
 ?>
 <?php 
