@@ -23,6 +23,7 @@ function hitungDeterminan($elementA, $elementB, $elementC, $elementD) {
         // menampilkan teks dibawah matriks
     echo "<b>Determinan dari matriks tersebut adalah $matriks</b>";
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

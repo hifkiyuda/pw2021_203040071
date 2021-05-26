@@ -18,6 +18,9 @@ body {
     background-color: #50C878 !important;
     color: white !important;
 }
+.submit:hover , button:hover {
+    opacity: 0.8 !important;
+}
 
 
 /* login & registrasi */
@@ -28,9 +31,6 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 4px;
-}
-.logout {
-    margin-top: 10px;
 }
 
 

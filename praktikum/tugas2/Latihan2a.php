@@ -9,8 +9,8 @@ SHIFT Jumat 10.00
 function gantiStyle($tulisan, $style1, $style2) {
     return "<div class='$style1 $style2'>$tulisan</div>";
 }
-?>
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -48,6 +48,9 @@ if (isset($_GET['cari'])) {
 <body>
     <div class="header">
         <div class="add">
+            <a href="logout.php">
+                <button type="" class="ui button" style="background-color: #FF0000; color: white;">Logout</button>
+            </a>
             <a href="tambah.php">
                 <button type="" class="ui button">Tambah Data</button>
             </a>
@@ -58,11 +61,6 @@ if (isset($_GET['cari'])) {
                 <button class="ui button" type="submit" name="cari">Cari!</button>
             </form>
         </div>
-    </div>
-    <div class="logout">
-        <a href="logout.php">
-            <button type="" class="ui button" style="background-color: #FF0000; color: white;">Logout</button>
-        </a>
     </div>
     <table class="ui celled table selectable padded table">
         <thead>
