@@ -1,0 +1,543 @@
+@font-face {
+    font-family: Lato;
+    src: url(../assets/font/Lato-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/***** Navbar *****/
+.navbar.is-fixed-top {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.navbar.active {
+    background: white;
+    box-shadow: 0 1px 10px rgb(0, 0, 0, 0.2);
+    transition: all .3s ease;
+}
+
+.nav.active {
+    color: hsl(0, 0%, 29%) !important;
+}
+
+.navbar-menu .navbar-end .navbar-item:hover,
+.navbar-item.has-dropdown.is-hoverable .navbar-link:hover {
+    background-color: transparent !important;
+    color: hsl(171, 100%, 41%);
+}
+
+.navbar-item .field .control {
+    position: relative;
+}
+
+.navbar-item.has-dropdown.is-hoverable .navbar-link,
+.navbar-item.has-dropdown.is-hoverable .navbar-dropdown {
+    background-color: transparent !important;
+    color: white;
+}
+
+
+/***** Hero *****/
+.hero {
+    height: 70vh !important;
+    background-image: radial-gradient(circle farthest-side at top left, #f56a79, #ee0d1c, #1aa6b7, #0b5c9b);
+}
+
+.hero .hero-body {
+    margin-top: 15vh !important;
+}
+
+.hero .hero-body .field .control {
+    right: 20px !important;
+}
+
+.keyword {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border: none;
+}
+
+.tombol-cari {
+    position: absolute;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    color: hsl(0, 0%, 71%) !important;
+}
+
+
+/***** Index *****/
+.poster {
+    position: relative;
+    cursor: pointer;
+	overflow: hidden;
+}
+
+.poster .caption {
+    position: absolute;
+    color: hsl(0, 0%, 96%);
+    transition: all .2s ease-in;
+    opacity: 0;
+}
+
+.poster .image img {
+    transition: all .2s ease-in;
+}
+
+.poster:hover .caption {
+    opacity: 1;
+}
+
+.poster:hover .image img {
+    filter: brightness(40%);
+}
+
+
+/***** Detail *****/
+.detail {
+    position: relative;
+}
+
+.detail .item .image img {
+    object-fit: cover;
+}
+
+.detail::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+    position: absolute;
+    bottom: 0;
+}
+
+
+/***** Login, Registrasi, & Admin *****/
+.login, .register, .admin {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login .container .columns .column,
+.register .container .columns .column {
+    height: 82vh;
+    margin-top: 50px;
+}
+
+.login .container .columns .column .title p,
+.register .container .columns .column .title p {
+    color: hsl(171, 100%, 41%);
+}
+
+
+/***** Footer *****/
+.footer .container {
+    margin-bottom: -5px !important;
+}
+
+.footer p, .footer a {
+    color: hsl(0, 0%, 86%) !important;
+}
+
+.footer .garis {
+    background-color: hsl(0, 0%, 29%);
+    height: 0.02vh;
+}
+
+.footer .copyright {
+    margin-bottom: -70px !important;
+}
+
+
+/***************************************************** MOBILE */
+@media (max-width: 320px) {
+    .detail .item .image img {
+        object-fit: cover;
+        height: 40vh !important;
+    }
+    
+    .detail .item .caption {
+        position: absolute;
+        z-index: 1;
+        left: 10px;
+        top: 50px !important;
+    }
+    
+    .detail .item .caption .title {
+        font-size: 20px !important;
+        color: hsl(0, 0%, 96%);
+    }
+}
+
+@media (max-width: 480px) {
+    .poster .caption {
+        bottom: 20px;
+        font-size: 10px !important;
+    }
+
+    .poster .caption-detail {
+        bottom: 8px;
+        padding-left: 4px;
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 600px) {
+    /* logo */
+    .plotwist {
+        font-weight: 600;
+        font-size: 20px !important;
+        color: hsl(171, 100%, 41%) !important;
+    }
+
+    /* navbar */
+    .navbar-menu .navbar-end .navbar-item,
+    .navbar-menu .navbar-end .navbar-item .navbar-link {
+        color: black;
+    }
+
+    .navbar-burger {
+        color: hsl(171, 100%, 41%);
+    }
+    .navbar-burger:hover {
+        color: hsl(171, 100%, 41%);
+        opacity: 0.8;
+    }
+        
+    #navbarBasicExample {
+        background-color: white;
+    }
+
+    /* index */
+    .hero {
+        height: 60vh !important;
+    }
+
+    .hero .hero-body {
+        margin-top: 10vh !important;
+    }
+
+    .hero .hero-body .title {
+        font-size: 24px !important;
+    }
+    
+    .hero .hero-body .subtitle {
+        font-size: 15px !important;
+    }
+
+    .title h1 {
+        color: hsl(0, 0%, 21%);
+        font-size: 20px;
+    }
+
+    .poster .caption {
+        bottom: 20px;
+        padding-left: 2px;
+        font-size: 14px;
+    }
+
+    .poster .caption-detail {
+        bottom: 8px;
+        padding-left: 4px;
+        font-size: 16px;
+    }
+
+    .hero .hero-body .title {
+        font-size: 28px;
+    }
+
+    .hero .hero-body .subtitle {
+        font-size: 18px;
+    }
+    
+    .upcoming .columns .column .title {
+        font-size: 18px;
+    }
+
+    .upcoming .columns .column .subtitle {
+        font-size: 14px;
+    }
+
+    .upcoming .columns .column .deskripsi {
+        font-size: 13px;
+    }
+
+    /* splide */
+    .splide-index .caption {
+        position: absolute;
+        bottom: 5px;
+        padding-left: 5px;
+        z-index: 1;
+        color: white;
+        font-size: 18px;
+    }
+
+    /* detail */
+    .detail .item .image img {
+        object-fit: cover;
+        height: 40vh !important;
+    }
+    
+    .detail .item .caption {
+        position: absolute;
+        z-index: 1;
+        left: 10px;
+        top: 70px;
+    }
+    
+    .detail .item .caption .title {
+        font-size: 26px;
+        color: hsl(0, 0%, 96%);
+    }
+    
+    .detail .item .caption .subtitle {
+        font-size: 12px;
+        color: hsl(0, 0%, 86%);
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .detail .item .caption .subtitle img {
+        width: 60px;
+        margin-right: 5px;
+    }
+    
+    .detail .item .caption .buttons .button {
+        font-size: 10px !important;
+    }
+}
+
+/***************************************************** TABLET */
+@media (min-width: 601px) and (max-width: 1023px) {
+    /* logo */
+    .plotwist {
+        font-weight: 600;
+        font-size: 22px !important;
+        color: hsl(171, 100%, 41%) !important;
+    }
+
+    /* navbar */
+    .navbar-menu .navbar-end .navbar-item,
+    .navbar-menu .navbar-end .navbar-item .navbar-link {
+        color: black;
+    }
+
+    .navbar-burger {
+        color: hsl(171, 100%, 41%);
+    }
+    .navbar-burger:hover {
+        color: hsl(171, 100%, 41%);
+        opacity: 0.8;
+    }
+    
+    #navbarBasicExample {
+        background-color: white;
+    }
+    
+    /* index */
+    .hero {
+        height: 40vh !important;
+    }
+
+    .hero .hero-body {
+        margin-top: 8vh !important;
+    }
+
+    .title h1 {
+        color: hsl(0, 0%, 21%);
+        font-size: 25px;
+    }
+
+    .poster .caption {
+        bottom: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .poster .caption-detail {
+        bottom: 8px;
+        padding-left: 4px;
+        font-size: 16px;
+    }
+
+    .hero .hero-body .title {
+        font-size: 30px;
+    }
+
+    .hero .hero-body .subtitle {
+        font-size: 20px;
+    }
+
+    .upcoming .columns .column .title {
+        font-size: 24px;
+    }
+
+    .upcoming .columns .column .subtitle {
+        font-size: 20px;
+    }
+
+    .upcoming .columns .column .deskripsi {
+        font-size: 16px;
+    }
+
+    /* splide */
+    .splide-index .caption {
+        position: absolute;
+        bottom: 10px;
+        padding-left: 10px;
+        z-index: 1;
+        color: white;
+        font-size: 18px;
+    }
+
+    /* detail */
+    .detail .item .image img {
+        object-fit: cover;
+        height: 40vh !important;
+    }
+    
+    .detail .item .caption {
+        position: absolute;
+        z-index: 1;
+        left: 20px;
+        top: 80px;
+    }
+    
+    .detail .item .caption .title {
+        font-size: 50px;
+        color: hsl(0, 0%, 96%);
+        margin-bottom: 40px;
+    }
+    
+    .detail .item .caption .subtitle {
+        font-size: 20px;
+        color: hsl(0, 0%, 86%);
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .detail .item .caption .subtitle img {
+        width: 100px;
+        margin-right: 10px;
+    }
+    
+    .detail .item .caption .buttons .button {
+        font-size: 14px !important;
+    }
+} 
+
+/***************************************************** DESKTOP */
+@media (min-width: 1024px) {
+    /* logo */
+    .plotwist {
+        font-weight: 600;
+        font-size: 24px !important;
+        color: hsl(171, 100%, 41%) !important;
+    }
+
+    /* navbar */
+    .navbar-menu .navbar-end .navbar-item,
+    .navbar-menu .navbar-end .navbar-item .navbar-link {
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    
+    .navbar-item.has-dropdown.is-hoverable .navbar-dropdown {
+        background-color: white !important;
+    }
+    
+    #navbarBasicExample {
+        background-color: transparent;
+    }
+
+    /* index */
+    .title h1 {
+        color: hsl(0, 0%, 21%);
+        font-size: 30px;
+    }
+
+    .poster .caption {
+        bottom: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .poster .caption-detail {
+        bottom: 16px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .hero .hero-body .title {
+        font-size: 32px;
+    }
+
+    .hero .hero-body .subtitle {
+        font-size: 20px;
+    }
+
+    .upcoming .columns .column .title {
+        font-size: 28px;
+    }
+
+    .upcoming .columns .column .subtitle {
+        font-size: 20px;
+    }
+
+    .upcoming .columns .column .deskripsi {
+        font-size: 18px;
+    }
+
+
+    /* splide */
+    .splide-index .caption {
+        position: absolute;
+        bottom: 10px;
+        padding-left: 10px;
+        z-index: 1;
+        color: white;
+        font-size: 21px;
+    }
+
+    /* detail */    
+    .detail .item .image img {
+        height: 80vh !important;
+    }
+
+    .detail .item .caption {
+        position: absolute;
+        z-index: 1;
+        left: 30px;
+        top: 100px;
+    }
+
+    .detail .item .caption .title {
+        font-size: 70px;
+        color: hsl(0, 0%, 96%);
+        margin-bottom: 40px;
+    }
+
+    .detail .item .caption .subtitle {
+        font-size: 24px;
+        color: hsl(0, 0%, 86%);
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .detail .item .caption .subtitle img {
+        width: 120px;
+        margin-right: 20px;
+    }
+
+    .detail .item .caption .buttons .button {
+        font-size: 16px !important;
+    }
+}
+
