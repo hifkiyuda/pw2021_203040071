@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Bulan Mei 2021 pada 09.33
+-- Waktu pembuatan: 27 Bulan Mei 2021 pada 10.30
 -- Versi server: 10.4.16-MariaDB
 -- Versi PHP: 7.4.12
 
@@ -73,8 +73,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
 (4, 'unpas', '$2y$10$aWVQjOpnzXJtMab/23IQgu1v7CSPN2UCgpc5nV56/Pkj46WOXwyzK'),
-(6, 'admin', '$2y$10$HPswrjHo.IenO2IMoPWLI.4PhDtIwO46pMmUqY10NKarl3RivtCBa'),
-(9, 'hifki', '$2y$10$/XLa9ffZPJpnvzdDXKUQyOCOmq6yaGGMRn1X9tSK/ktPRLlVsvniS');
+(9, 'hifki', '$2y$10$/XLa9ffZPJpnvzdDXKUQyOCOmq6yaGGMRn1X9tSK/ktPRLlVsvniS'),
+(10, 'admin', '$2y$10$OBjcHsdMU1IbHKjUApDp3.Vlo9m.llwqz65Rrm4aFNVH70BoQg8n.');
 
 --
 -- Indexes for dumped tables
@@ -106,7 +106,7 @@ ALTER TABLE `movies`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

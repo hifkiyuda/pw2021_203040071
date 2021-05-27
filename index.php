@@ -50,24 +50,24 @@ SHIFT Jumat 10.00
                         <li class="splide__slide">
                             <div class="card">
                                 <footer class="card-footer">
-                                    <a href="pertemuan2/" class="card-footer-item">Pertemuan 2</a>
-                                    <a href="pertemuan7/" class="card-footer-item">Pertemuan 7</a>
+                                    <a href="kuliah/pertemuan2/" class="card-footer-item">Pertemuan 2</a>
+                                    <a href="kuliah/pertemuan7/" class="card-footer-item">Pertemuan 7</a>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="pertemuan3/" class="card-footer-item">Pertemuan 3</a>
-                                    <a href="pertemuan10/" class="card-footer-item">Pertemuan 10</a>
+                                    <a href="kuliah/pertemuan3/" class="card-footer-item">Pertemuan 3</a>
+                                    <a href="kuliah/pertemuan10/" class="card-footer-item">Pertemuan 10</a>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="pertemuan4/" class="card-footer-item">Pertemuan 4</a>
-                                    <a href="pertemuan11/" class="card-footer-item">Pertemuan 11</a>
+                                    <a href="kuliah/pertemuan4/" class="card-footer-item">Pertemuan 4</a>
+                                    <a href="kuliah/pertemuan11/" class="card-footer-item">Pertemuan 11</a>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="pertemuan5/" class="card-footer-item">Pertemuan 5</a>
-                                    <a href="pertemuan12/" class="card-footer-item">Pertemuan 12</a>
+                                    <a href="kuliah/pertemuan5/" class="card-footer-item">Pertemuan 5</a>
+                                    <a href="kuliah/pertemuan12/" class="card-footer-item">Pertemuan 12</a>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="pertemuan6/" class="card-footer-item">Pertemuan 6</a>
-                                    <a href="pertemuan13/" class="card-footer-item">Pertemuan 13</a>
+                                    <a href="kuliah/pertemuan6/" class="card-footer-item">Pertemuan 6</a>
+                                    <a href="kuliah/pertemuan13/" class="card-footer-item">Pertemuan 13</a>
                                 </footer>
                                 <p class="title big">
                                     Kuliah

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Bulan Mei 2021 pada 13.35
+-- Waktu pembuatan: 27 Bulan Mei 2021 pada 10.29
 -- Versi server: 10.4.16-MariaDB
 -- Versi PHP: 7.4.12
 
@@ -41,7 +41,7 @@ CREATE TABLE `mobil` (
 --
 
 INSERT INTO `mobil` (`id`, `gambar`, `nama`, `harga`, `transmisi`, `bahanbakar`) VALUES
-(1, 'innova.jpeg', 'Toyota Kijang Innova', 'Rp 337,6 juta', 'manual', 'bensin'),
+(1, '6098a6efc7a12.jpeg', 'Toyota Kijang Innova', 'Rp 337,6 juta', 'manual', 'bensin'),
 (2, 'brio.jpeg', 'Honda Brio', 'Rp 149 juta', 'manual', 'bensin'),
 (3, 'cr-v.jpeg', 'Honda CR-V', 'Rp 489 juta', 'otomatis', 'bensin'),
 (4, 'pajero.jpeg', 'Mitsubishi Pajero Sport', 'Rp 733,7 juta', 'otomatis', 'solar'),
@@ -69,8 +69,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
-(3, 'pw', '$2y$10$WLLXc22JV3YoIR3RteyBq.PXb2Q26vmfPzkc/CwR37amT6W5oBLfq'),
-(4, 'admin', '$2y$10$sw/uKpmHupuIpPODG3F0x.YGINmGAEJ4sWNtooCCfliedmKj24zyy');
+(4, 'admin', '$2y$10$sw/uKpmHupuIpPODG3F0x.YGINmGAEJ4sWNtooCCfliedmKj24zyy'),
+(5, 'hifki', '$2y$10$vdmvJnDoInnnEbx4T57Gl.TPpXItYZMbZ.RaIgleyu893WkQCpIZK'),
+(6, 'unpas', '$2y$10$qPJY0rX2YoAdnKICBFfCieYywFkkzmpKCeNSCkaJao8d6ccFRImEq');
 
 --
 -- Indexes for dumped tables
@@ -96,13 +97,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `mobil`
 --
 ALTER TABLE `mobil`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
