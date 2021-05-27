@@ -145,6 +145,9 @@ SHIFT Jumat 10.00
                 </div>
             </div>
             <footer class="foot">
+                    <a href="https://github.com/hifkiyuda">
+                        <img class="image" src="assets/img/github-logo.png" width="25" alt="">
+                    </a>
                 <p class="pt-2">
                 &copy; 2021 <strong>Tugas Besar Pemrograman Web</strong> by Hifki Yuda Pratama 203040071. 
                 <strong>Teknik Informatika <a href="http://www.unpas.ac.id">Universitas Pasundan</a>.</strong>
@@ -168,6 +171,11 @@ SHIFT Jumat 10.00
             gap    : '1rem',
           },
           '480': {
+            perPage: 1,
+            perMove: 1,
+            gap    : '1rem',
+          },
+          '768': {
             perPage: 1,
             perMove: 1,
             gap    : '1rem',

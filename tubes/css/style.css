@@ -125,10 +125,13 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.login, .register {
+    height: 100vh;
+}
+
 .login .container .columns .column,
 .register .container .columns .column {
-    height: 82vh;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .login .container .columns .column .title p,
@@ -157,21 +160,21 @@ body {
 
 
 /***************************************************** MOBILE */
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .detail .item .image img {
         object-fit: cover;
-        height: 40vh !important;
+        height: 35vh !important;
     }
     
     .detail .item .caption {
         position: absolute;
         z-index: 1;
         left: 10px;
-        top: 50px !important;
+        top: 60px !important;
     }
     
     .detail .item .caption .title {
-        font-size: 20px !important;
+        font-size: 21px !important;
         color: hsl(0, 0%, 96%);
     }
 }
@@ -179,13 +182,13 @@ body {
 @media (max-width: 480px) {
     .poster .caption {
         bottom: 20px;
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .poster .caption-detail {
         bottom: 8px;
         padding-left: 4px;
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 }
 @media (max-width: 600px) {
@@ -239,13 +242,14 @@ body {
     .poster .caption {
         bottom: 20px;
         padding-left: 2px;
+        padding-right: 12px;
         font-size: 14px;
     }
 
     .poster .caption-detail {
         bottom: 8px;
         padding-left: 4px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .hero .hero-body .title {
@@ -281,31 +285,25 @@ body {
     /* detail */
     .detail .item .image img {
         object-fit: cover;
-        height: 40vh !important;
+        height: 35vh !important;
     }
     
     .detail .item .caption {
         position: absolute;
         z-index: 1;
         left: 10px;
-        top: 70px;
+        top: 60px;
     }
     
     .detail .item .caption .title {
-        font-size: 26px;
+        font-size: 25px;
         color: hsl(0, 0%, 96%);
     }
     
     .detail .item .caption .subtitle {
-        font-size: 12px;
+        font-size: 11px;
         color: hsl(0, 0%, 86%);
-        display: flex;
-        margin-bottom: 10px;
-    }
-
-    .detail .item .caption .subtitle img {
-        width: 60px;
-        margin-right: 5px;
+        margin-bottom: 15px;
     }
     
     .detail .item .caption .buttons .button {
@@ -357,7 +355,8 @@ body {
     .poster .caption {
         bottom: 20px;
         padding-left: 10px;
-        font-size: 20px;
+        padding-right: 20px;
+        font-size: 24px;
     }
 
     .poster .caption-detail {
@@ -393,7 +392,7 @@ body {
         padding-left: 10px;
         z-index: 1;
         color: white;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     /* detail */
@@ -406,25 +405,19 @@ body {
         position: absolute;
         z-index: 1;
         left: 20px;
-        top: 80px;
+        top: 90px;
     }
     
     .detail .item .caption .title {
         font-size: 50px;
         color: hsl(0, 0%, 96%);
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     
     .detail .item .caption .subtitle {
-        font-size: 20px;
+        font-size: 21px;
         color: hsl(0, 0%, 86%);
-        display: flex;
-        margin-bottom: 20px;
-    }
-
-    .detail .item .caption .subtitle img {
-        width: 100px;
-        margin-right: 10px;
+        margin-bottom: 30px;
     }
     
     .detail .item .caption .buttons .button {
@@ -466,6 +459,7 @@ body {
     .poster .caption {
         bottom: 20px;
         padding-left: 10px;
+        padding-right: 20px;
         font-size: 20px;
     }
 
@@ -515,7 +509,7 @@ body {
         position: absolute;
         z-index: 1;
         left: 30px;
-        top: 100px;
+        top: 110px;
     }
 
     .detail .item .caption .title {
@@ -527,13 +521,7 @@ body {
     .detail .item .caption .subtitle {
         font-size: 24px;
         color: hsl(0, 0%, 86%);
-        display: flex;
         margin-bottom: 40px;
-    }
-
-    .detail .item .caption .subtitle img {
-        width: 120px;
-        margin-right: 20px;
     }
 
     .detail .item .caption .buttons .button {

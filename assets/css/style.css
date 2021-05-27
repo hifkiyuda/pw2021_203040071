@@ -107,6 +107,10 @@ hr {
     border-top: 1px solid #000000;
 }
 
+.foot p {
+    margin-top: -4px;
+}
+
 .foot p, .foot p strong {
     color: black;
 }
@@ -115,6 +119,11 @@ hr {
     color: #FF4500;
 }
 
+.foot .image {
+    margin-top: 4px !important;
+}
+
+/* mobile */
 @media (max-width: 600px) {
     .subtitle.is-size-4 {
         font-size: 18px !important;

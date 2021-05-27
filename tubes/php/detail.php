@@ -64,7 +64,6 @@ $slider = query("SELECT * FROM movies");
             <?= $movies["judul"]; ?>
         </p>
         <p class="subtitle">
-          <img src="../assets/img/<?= $movies["poster"]; ?>" alt=""><br>
           Pemeran : <?= $movies["cast"]; ?><br>
           Rating : <?= $movies["rating"]; ?><br>
           Genre : <?= $movies["genre"]; ?><br>
