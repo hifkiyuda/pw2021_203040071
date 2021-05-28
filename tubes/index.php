@@ -221,14 +221,6 @@ if (isset($_GET['cari'])) {
             </p>
           </div>
           <div class="column">
-            <p class="title is-6">Information</p>
-            <p class="subtitle is-6">
-              <a href="">FAQ</a><br>
-              <a href="">Return Policy</a><br>
-              <a href="">Tax</a>
-            </p>
-          </div>
-          <div class="column">
             <p class="title is-6">Admin</p>
             <p class="subtitle is-6">
               <a href="php/login.php">Login</a><br>
@@ -242,7 +234,7 @@ if (isset($_GET['cari'])) {
         <figcaption class="has-text-centered pt-3">
           <small style="color: hsl(0, 0%, 86%);">
           Copyright &copy; 2021 <a href="#home" style="color: hsl(171, 100%, 41%) !important;">plotwist</a> by Hifki Yuda Pratama 203040071. 
-          All The Poster Pictures Belongs To <a href="https://www.primevideo.com/">Prime Video</a>
+          All The Posters Belong To <a href="https://www.primevideo.com/">Prime Video</a>
           </small>
         </figcaption>
       </div>
