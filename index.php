@@ -83,12 +83,12 @@ SHIFT Jumat 10.00
                         <li class="splide__slide">
                             <div class="card">
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
                                     <a href="praktikum/tugas1/" class="card-footer-item">Tugas 1</a>
@@ -116,16 +116,16 @@ SHIFT Jumat 10.00
                         <li class="splide__slide">
                             <div class="card">
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
-                                    <a href="#" class="card-footer-item"></a>
+                                    <div href="#" class="card-footer-item"></div>
                                 </footer>
                                 <footer class="card-footer">
                                     <a href="tubes/" class="card-footer-item">Tugas Besar</a>
