@@ -122,9 +122,9 @@ $slider = query("SELECT * FROM movies");
         <div class="column">
           <p class="title is-6">Movies</p>
           <p class="subtitle is-6">
-            <a href="#latest">Latest</a><br>
-            <a href="#popular">Popular</a><br>
-            <a href="#upcoming">Upcoming</a>
+            <a href="../#latest">Latest</a><br>
+            <a href="../#popular">Popular</a><br>
+            <a href="../#upcoming">Upcoming</a>
           </p>
         </div>
         <div class="column">
@@ -138,8 +138,8 @@ $slider = query("SELECT * FROM movies");
         <div class="column">
           <p class="title is-6">Admin</p>
           <p class="subtitle is-6">
-            <a href="php/login.php">Login</a><br>
-            <a href="php/registrasi.php">Register</a>
+            <a href="login.php">Login</a><br>
+            <a href="registrasi.php">Register</a>
           </p>
         </div>
 
