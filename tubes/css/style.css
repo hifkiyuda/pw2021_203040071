@@ -96,7 +96,7 @@ body {
 }
 
 .poster:hover .image img {
-    filter: brightness(40%);
+    filter: brightness(25%);
 }
 
 
@@ -158,39 +158,30 @@ body {
     margin-bottom: -70px !important;
 }
 
+.footer .container .columns .column .subtitle a:hover {
+    color: hsl(171, 100%, 41%) !important;
+}
+
 
 /***************************************************** MOBILE */
 @media (max-width: 360px) {
     .detail .item .image img {
         object-fit: cover;
-        height: 35vh !important;
     }
     
     .detail .item .caption {
         position: absolute;
         z-index: 1;
         left: 10px;
-        top: 60px !important;
+        top: 90px !important;
     }
     
     .detail .item .caption .title {
-        font-size: 21px !important;
+        font-size: 24px !important;
         color: hsl(0, 0%, 96%);
     }
 }
 
-@media (max-width: 480px) {
-    .poster .caption {
-        bottom: 20px;
-        font-size: 12px !important;
-    }
-
-    .poster .caption-detail {
-        bottom: 8px;
-        padding-left: 4px;
-        font-size: 12px !important;
-    }
-}
 @media (max-width: 600px) {
     /* logo */
     .plotwist {
@@ -226,30 +217,22 @@ body {
         margin-top: 10vh !important;
     }
 
-    .hero .hero-body .title {
-        font-size: 24px !important;
-    }
-    
-    .hero .hero-body .subtitle {
-        font-size: 15px !important;
-    }
-
     .title h1 {
         color: hsl(0, 0%, 21%);
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .poster .caption {
         bottom: 20px;
-        padding-left: 2px;
+        padding-left: 4px;
         padding-right: 12px;
-        font-size: 14px;
+        font-size: 16px !important;
     }
 
     .poster .caption-detail {
         bottom: 8px;
         padding-left: 4px;
-        font-size: 14px;
+        font-size: 16px !important;
     }
 
     .hero .hero-body .title {
@@ -257,19 +240,19 @@ body {
     }
 
     .hero .hero-body .subtitle {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .upcoming .columns .column .title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .upcoming .columns .column .subtitle {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .upcoming .columns .column .deskripsi {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /* splide */
@@ -279,35 +262,37 @@ body {
         padding-left: 5px;
         z-index: 1;
         color: white;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     /* detail */
     .detail .item .image img {
         object-fit: cover;
-        height: 35vh !important;
+        height: 50vh !important;
     }
     
     .detail .item .caption {
         position: absolute;
         z-index: 1;
         left: 10px;
-        top: 60px;
+        right: 10px;
+        top: 85px;
     }
     
     .detail .item .caption .title {
-        font-size: 25px;
+        font-size: 28px;
         color: hsl(0, 0%, 96%);
+        margin-bottom: 30px;
     }
     
     .detail .item .caption .subtitle {
-        font-size: 11px;
+        font-size: 14px;
         color: hsl(0, 0%, 86%);
         margin-bottom: 15px;
     }
     
     .detail .item .caption .buttons .button {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 }
 
@@ -497,7 +482,7 @@ body {
         padding-left: 10px;
         z-index: 1;
         color: white;
-        font-size: 21px;
+        font-size: 24px;
     }
 
     /* detail */    

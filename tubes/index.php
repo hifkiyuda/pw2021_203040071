@@ -136,7 +136,7 @@ if (isset($_GET['cari'])) {
       </section>
 
       <!-- Popular -->
-      <section class="section" style="margin-top: -80px;" id="popular">
+      <section class="section" style="margin-top: -60px;" id="popular">
         <div class="title">
           <h1>Popular movies</h1>
         </div>
@@ -147,7 +147,7 @@ if (isset($_GET['cari'])) {
         <?php endif; ?>
         <div class="columns is-multiline is-mobile">
           <?php foreach ($movies as $mv) : ?>
-          <div class="column is-4-mobile is-3-tablet is-2-desktop is-2-widescreen poster">
+          <div class="column is-6-mobile is-3-tablet is-2-desktop is-2-widescreen poster">
             <a class="image" href="php/detail.php?id=<?= $mv['id']; ?>">
               <img src="assets/img/<?= $mv['poster']; ?>" alt="">
             </a>
@@ -205,7 +205,7 @@ if (isset($_GET['cari'])) {
         </div>
         <div class="columns">
           <div class="column">
-            <p class="title is-6">Movies</p>
+            <p class="title is-6 has-text-weight-normal">MOVIES</p>
             <p class="subtitle is-6">
               <a href="#latest">Latest</a><br>
               <a href="#popular">Popular</a><br>
@@ -213,7 +213,7 @@ if (isset($_GET['cari'])) {
             </p>
           </div>
           <div class="column">
-            <p class="title is-6">Contact Us</p>
+            <p class="title is-6 has-text-weight-normal">CONTACT US</p>
             <p class="subtitle is-6">
               <a href="#">Email</a><br>
               <a href="#">Phone</a><br>
@@ -221,7 +221,7 @@ if (isset($_GET['cari'])) {
             </p>
           </div>
           <div class="column">
-            <p class="title is-6">Admin</p>
+            <p class="title is-6 has-text-weight-normal">ADMIN</p>
             <p class="subtitle is-6">
               <a href="php/login.php">Login</a><br>
               <a href="php/registrasi.php">Registrasi</a>
@@ -233,8 +233,8 @@ if (isset($_GET['cari'])) {
       <div class="copyright">
         <figcaption class="has-text-centered pt-3">
           <small style="color: hsl(0, 0%, 86%);">
-          Copyright &copy; 2021 <a href="#home" style="color: hsl(171, 100%, 41%) !important;">plotwist</a> by Hifki Yuda Pratama 203040071. 
-          All The Posters Belong To <a href="https://www.primevideo.com/">Prime Video</a>
+            Copyright &copy; 2021 <a href="#home" style="color: hsl(171, 100%, 41%) !important;">plotwist</a> by Hifki Yuda Pratama 203040071. 
+            All The Posters Belong To <a href="https://www.primevideo.com/">Prime Video</a>
           </small>
         </figcaption>
       </div>
